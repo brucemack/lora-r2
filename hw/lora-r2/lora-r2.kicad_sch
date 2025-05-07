@@ -1641,7 +1641,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 17.78 19.05 180)
 					(length 2.54)
 					(name "GND"
@@ -4296,7 +4296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 102.87 148.59 0)
 			(effects
 				(font
@@ -4633,7 +4633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
 			(at 255.27 48.26 0)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
 			(at 100.33 171.45 0)
 			(effects
 				(font
@@ -5254,7 +5254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bruce-footprints:RPi_Pico_SMD_TH"
+		(property "Footprint" "bruce-footprints:RPi_Pico_SMD"
 			(at 102.87 105.41 90)
 			(effects
 				(font
