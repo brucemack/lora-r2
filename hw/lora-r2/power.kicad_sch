@@ -689,7 +689,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:FDN340P"
+		(symbol "Transistor_FET:IRLML6401"
 			(pin_names
 				(hide yes)
 			)
@@ -705,7 +705,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FDN340P"
+			(property "Value" "IRLML6401"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -725,7 +725,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF"
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -735,7 +735,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-2A Id, -20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"
+			(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -744,7 +744,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "P-Channel MOSFET"
+			(property "ki_keywords" "P-Channel HEXFET MOSFET Logic-Level"
 				(at 0 0 0)
 				(effects
 					(font
@@ -762,7 +762,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FDN340P_0_1"
+			(symbol "IRLML6401_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -929,7 +929,7 @@
 					)
 				)
 			)
-			(symbol "FDN340P_1_1"
+			(symbol "IRLML6401_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1325,16 +1325,25 @@
 		)
 		(uuid "7767c639-1737-42d6-a0ea-edd9a27aef4a")
 	)
-	(text "Need to check D/S polarity here!"
+	(text "High-side switch to turn on/off radio selectively."
 		(exclude_from_sim no)
-		(at 176.276 35.814 0)
+		(at 170.18 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 2 6 1)
 			)
 		)
-		(uuid "a40d9461-71b0-4cd1-8ad3-e6b8261d037a")
+		(uuid "9cd96812-b404-4900-be39-b26d114c1441")
+	)
+	(text "Source"
+		(exclude_from_sim no)
+		(at 163.576 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ade994ba-0fe9-4975-b4f7-15aefcaccd2f")
 	)
 	(text "Voltage Dividers "
 		(exclude_from_sim no)
@@ -1348,6 +1357,27 @@
 			(justify left bottom)
 		)
 		(uuid "bc47d411-e40e-4552-8a11-a0fb84d65aaf")
+	)
+	(text_box "~30K available on DigiKey.  SOT-23 footprint.\nRds(on) is 85mOhm at Vgs=-2.5V."
+		(exclude_from_sim no)
+		(at 173.99 50.165 0)
+		(size 48.895 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 117 204 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6e0290f3-3190-4af1-9764-466c89c0d1d1")
 	)
 	(junction
 		(at 50.8 41.91)
@@ -3063,6 +3093,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6401")
+		(at 170.18 48.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b325247d-a3f6-4230-9e7b-b3abd3bbd646")
+		(property "Reference" "Q1"
+			(at 170.18 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLML6401"
+			(at 170.18 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 168.275 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+			(at 153.924 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 170.18 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbe43cca-0486-473d-8ae9-f436461b0ffa")
+		)
+		(pin "1"
+			(uuid "5f0c70b0-5995-4807-9a5b-dffd4b89ebde")
+		)
+		(pin "3"
+			(uuid "4490d5a1-d857-4c40-9a8b-b14e5b3a6750")
+		)
+		(instances
+			(project ""
+				(path "/7c949457-b1cf-485c-aaec-4142bb885473/1480c633-6832-4a00-ad6f-0d91d4f73ed1"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 148.59 45.72 0)
 		(unit 1)
@@ -3459,80 +3562,6 @@
 			(project "lora-r2"
 				(path "/7c949457-b1cf-485c-aaec-4142bb885473/1480c633-6832-4a00-ad6f-0d91d4f73ed1"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:FDN340P")
-		(at 170.18 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8b2b399-357e-4b52-8d37-d12fe5303b2b")
-		(property "Reference" "Q1"
-			(at 170.18 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FDN340P"
-			(at 170.18 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 172.085 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF"
-			(at 173.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-2A Id, -20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "465dc5b2-d312-4369-b496-de194caf2aa7")
-		)
-		(pin "1"
-			(uuid "c2451d70-7c0f-488e-be02-6fc6352ee1b4")
-		)
-		(pin "3"
-			(uuid "f780b5dd-fc96-4d1f-bc2c-a527af743f91")
-		)
-		(instances
-			(project ""
-				(path "/7c949457-b1cf-485c-aaec-4142bb885473/1480c633-6832-4a00-ad6f-0d91d4f73ed1"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
