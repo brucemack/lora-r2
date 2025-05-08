@@ -615,6 +615,10 @@
     [
       "1480c633-6832-4a00-ad6f-0d91d4f73ed1",
       "Power"
+    ],
+    [
+      "c0f1f859-bc00-44b9-8780-50dac8a5803d",
+      "Controller"
     ]
   ],
   "text_variables": {}
