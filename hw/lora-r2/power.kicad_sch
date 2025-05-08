@@ -1205,6 +1205,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NOTE: Make sure this \ncap can handle +12V!"
+		(exclude_from_sim no)
+		(at 54.61 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "622dd0e4-baaf-42a3-818c-3f43043cf23a")
+	)
 	(text "High-side switch to turn on/off radio selectively."
 		(exclude_from_sim no)
 		(at 170.18 30.48 0)
@@ -1235,9 +1245,9 @@
 		)
 		(uuid "af7d1b6f-e3bd-4212-b1c6-1e1f1bffb784")
 	)
-	(text "Voltage Dividers "
+	(text "Voltage dividers to allow higher voltages\nto be monitored via 3.3V ADC."
 		(exclude_from_sim no)
-		(at 24.13 92.71 0)
+		(at 73.406 89.662 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2712,6 +2722,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"

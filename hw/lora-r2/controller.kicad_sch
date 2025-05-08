@@ -1793,8 +1793,8 @@
 	)
 	(text_box "Regarding AGND: \"If the ADC is not used or ADC performance is not critical, this pin can be connected to digital\nground.\""
 		(exclude_from_sim no)
-		(at 186.69 93.98 0)
-		(size 43.18 39.37)
+		(at 139.7 91.44 0)
+		(size 43.18 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
