@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "8d78177e-bde3-44fe-ba59-2261a5594f86")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "KC1FSZ LoRa Controller Board")
+		(date "2025-05-08")
+		(rev "1")
+		(company "Bruce MacKinnon")
+		(comment 1 "Copyright (C) 2025, Bruce MacKinnon")
+		(comment 2 "NOT FOR COMMERCIAL USE")
+	)
 	(lib_symbols
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
