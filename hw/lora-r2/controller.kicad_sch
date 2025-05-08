@@ -1884,6 +1884,10 @@
 		(uuid "cae9939a-4d1b-4fe3-808b-1c5b6570074c")
 	)
 	(no_connect
+		(at 121.92 120.65)
+		(uuid "d5796417-fc88-49d6-acbf-3a6f60afa4ca")
+	)
+	(no_connect
 		(at 236.22 39.37)
 		(uuid "fd110cc6-b886-4c55-9070-0b127185f5b6")
 	)
@@ -2170,16 +2174,6 @@
 			(type default)
 		)
 		(uuid "5bedd964-d311-4567-8454-66c052857a2b")
-	)
-	(wire
-		(pts
-			(xy 121.92 120.65) (xy 144.78 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f71d962-6a2e-499a-b4ee-08486fd62edc")
 	)
 	(wire
 		(pts
@@ -2551,6 +2545,16 @@
 		)
 		(uuid "fc821ac8-ad96-4d64-867a-9c4d90e527ba")
 	)
+	(label "ANT"
+		(at 242.57 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ff9ef75-2cce-4d79-a959-c111c081ff20")
+	)
 	(global_label "GPIO5"
 		(shape input)
 		(at 63.5 100.33 180)
@@ -2597,7 +2601,7 @@
 	)
 	(global_label "RADIO_RFSW_V1"
 		(shape input)
-		(at 157.48 130.81 0)
+		(at 157.48 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2607,7 +2611,7 @@
 		)
 		(uuid "0d32cfb3-b37a-4b74-9def-953277270446")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2819 130.81 0)
+			(at 175.2819 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2887,7 @@
 	)
 	(global_label "RADIO_BUSY"
 		(shape input)
-		(at 137.16 125.73 0)
+		(at 157.48 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2893,7 +2897,7 @@
 		)
 		(uuid "6030e7a4-9df8-4037-927b-f102f7639f77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.5753 125.73 0)
+			(at 171.8953 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2997,7 @@
 	)
 	(global_label "RADIO_INT"
 		(shape input)
-		(at 157.48 123.19 0)
+		(at 137.16 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3003,7 +3007,7 @@
 		)
 		(uuid "83f6f734-c5db-4817-a122-06f60ee84465")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.8996 123.19 0)
+			(at 149.5796 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3151,7 @@
 	)
 	(global_label "RADIO_RFSW_V2"
 		(shape input)
-		(at 137.16 133.35 0)
+		(at 137.16 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3157,7 +3161,7 @@
 		)
 		(uuid "db66b0f6-ee3d-482f-aa95-484e86dab628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9619 133.35 0)
+			(at 154.9619 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
