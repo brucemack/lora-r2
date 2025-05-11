@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "KC1FSZ LoRa Controller Board")
-		(date "2025-05-08")
+		(date "2025-05-11")
 		(rev "1")
 		(company "Bruce MacKinnon")
 		(comment 1 "Copyright (C) 2025, Bruce MacKinnon")
@@ -1310,12 +1310,6 @@
 		(uuid "abceb412-3abc-4f9a-bce0-81fff8946245")
 	)
 	(junction
-		(at 156.21 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c65ea3d6-9860-482d-b07a-8bc6fe3639c0")
-	)
-	(junction
 		(at 82.55 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1630,16 +1624,6 @@
 			(type default)
 		)
 		(uuid "dbb2a968-3fa2-4198-8bad-b4c3251ee67d")
-	)
-	(wire
-		(pts
-			(xy 148.59 45.72) (xy 156.21 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f26a7986-0555-45bb-9dab-57f7548cf4bc")
 	)
 	(wire
 		(pts
@@ -2747,72 +2731,6 @@
 			(project ""
 				(path "/7c949457-b1cf-485c-aaec-4142bb885473/1480c633-6832-4a00-ad6f-0d91d4f73ed1"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 148.59 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be4516e6-c547-4ee5-8313-3348123a843a")
-		(property "Reference" "#FLG04"
-			(at 148.59 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c65ef6c-3f49-47ba-83e2-2ab9175ce6fa")
-		)
-		(instances
-			(project ""
-				(path "/7c949457-b1cf-485c-aaec-4142bb885473/1480c633-6832-4a00-ad6f-0d91d4f73ed1"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "KC1FSZ LoRa Controller Board")
-		(date "2025-05-08")
+		(date "2025-05-11")
 		(rev "1")
 		(company "Bruce MacKinnon")
 		(comment 1 "Copyright (C) 2025, Bruce MacKinnon")
